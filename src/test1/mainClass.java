@@ -25,32 +25,32 @@ public class mainClass {
 		{
 			bt_choose = new JButton();
 			myJToolBar.add(bt_choose);
-			bt_choose.setText("Ñ¡Ôñ");
+			bt_choose.setText("Ñ¡ï¿½ï¿½  å¤§å®¶å¥½");
 			bt_choose.setPreferredSize(new java.awt.Dimension(80, 34));
 			bt_choose.setIcon(new ImageIcon("images//AddNode.jpg"));
-			bt_choose.setFont(new java.awt.Font("¿¬Ìå", 0, 14));
-			bt_choose.setToolTipText("µã´Ë¿ÉÍÏ¶¯¶ÔÏó");
+			bt_choose.setFont(new java.awt.Font("ï¿½ï¿½ï¿½ï¿½", 0, 14));
+			bt_choose.setToolTipText("ï¿½ï¿½Ë¿ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ï¿½ï¿½");
 			bt_choose.setBackground(new java.awt.Color(255, 255, 128));
 		}
 		{
 			bt_add_state = new JButton();
 			myJToolBar.add(bt_add_state);
-			bt_add_state.setText("Ìí¼Ó×´Ì¬");
-			bt_add_state.setToolTipText("µã´Ë¿ÉÇÐ»»Îª×´Ì¬ÊäÈëÇé¾°");
+			bt_add_state.setText("ï¿½ï¿½ï¿½×´Ì¬");
+			bt_add_state.setToolTipText("ï¿½ï¿½Ë¿ï¿½ï¿½Ð»ï¿½Îª×´Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½é¾°");
 			bt_add_state.setIcon(new ImageIcon("images//AddSide.jpg"));
-			bt_add_state.setFont(new java.awt.Font("¿¬Ìå", 0, 14));
+			bt_add_state.setFont(new java.awt.Font("ï¿½ï¿½ï¿½ï¿½", 0, 14));
 			bt_add_state.setBackground(new java.awt.Color(255, 255, 128));
-			bt_add_state.setToolTipText("Ê×´Îµã»÷½áÊø½áµãÊäÈë,È»ºóÔö¼ÓÒ»Ìõ±ß");
+			bt_add_state.setToolTipText("ï¿½×´Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½");
 			bt_add_state.setPreferredSize(new java.awt.Dimension(78, 34));
 		}
 		{
 			bt_connect = new JButton();
 			myJToolBar.add(bt_connect);
-			bt_connect.setText("Á¬Ïß");
+			bt_connect.setText("ï¿½ï¿½ï¿½ï¿½");
 			bt_connect.setIcon(new ImageIcon("images//DrawFigure.jpg"));
-			bt_connect.setFont(new java.awt.Font("¿¬Ìå", 0, 14));
+			bt_connect.setFont(new java.awt.Font("ï¿½ï¿½ï¿½ï¿½", 0, 14));
 			bt_connect.setBackground(new java.awt.Color(255, 255, 128));
-			bt_connect.setToolTipText("µã´Ë¿ÉÊäÈëÁ¬Ïß");
+			bt_connect.setToolTipText("ï¿½ï¿½Ë¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 			bt_connect.setPreferredSize(new java.awt.Dimension(94, 34));
 			bt_connect.addActionListener(new HandleControlButton(3));
 
@@ -58,17 +58,17 @@ public class mainClass {
 		{
 			bt_delete = new JButton();
 			myJToolBar.add(bt_delete);
-			bt_delete.setText("É¾³ý");
+			bt_delete.setText("É¾ï¿½ï¿½");
 			bt_delete.setIcon(new ImageIcon("images//ShortestPath.jpg"));
-			bt_delete.setFont(new java.awt.Font("¿¬Ìå", 0, 14));
+			bt_delete.setFont(new java.awt.Font("ï¿½ï¿½ï¿½ï¿½", 0, 14));
 			bt_delete.setBackground(new java.awt.Color(255, 255, 128));
-			bt_delete.setToolTipText("µã´Ë¿ÉÉ¾³ý¶ÔÏó");
+			bt_delete.setToolTipText("ï¿½ï¿½Ë¿ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 			bt_delete.setPreferredSize(new java.awt.Dimension(95, 34));
 			bt_delete.addActionListener(new HandleControlButton(4));
 		}
 		
-//		drawingComponent dc = new drawingComponent();
-//		window.add(dc);
+		drawingComponent dc = new drawingComponent();
+		window.add(dc);
 		
 
 		
